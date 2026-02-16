@@ -1,0 +1,42 @@
+[
+  {
+    "category": "setup",
+    "description": "初始化项目结构和依赖",
+    "steps": [
+      "创建项目目录结构",
+      "安装依赖",
+      "配置开发环境"
+    ],
+    "passes": false
+  },
+  {
+    "category": "core",
+    "description": "实现核心功能模块",
+    "steps": [
+      "设计数据模型",
+      "实现主要业务逻辑",
+      "添加错误处理"
+    ],
+    "passes": false
+  },
+  {
+    "category": "testing",
+    "description": "编写单元测试和集成测试",
+    "steps": [
+      "编写单元测试",
+      "运行测试确保通过",
+      "添加集成测试"
+    ],
+    "passes": false
+  },
+  {
+    "category": "documentation",
+    "description": "编写文档和README",
+    "steps": [
+      "编写使用文档",
+      "添加代码注释",
+      "创建示例代码"
+    ],
+    "passes": false
+  }
+]

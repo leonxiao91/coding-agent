@@ -1,0 +1,31 @@
+# MiniMax Coding Agent 配置文件
+
+# API 配置
+api:
+  base_url: "https://api.minimax.chat"
+  model: "MiniMax-M2.1"
+  max_tokens: 8192
+  temperature: 0.7
+
+# 项目配置
+project:
+  workspace: "./workspace"
+  progress_file: "claude-progress.txt"
+  feature_file: "feature_list.json"
+  init_script: "init.sh"
+  git_branch: "main"
+
+# 编码规则
+coding:
+  features_per_session: 1  # 每次会话只做一个功能
+  auto_commit: true
+  auto_push: false
+  test_required: true  # 必须测试通过才标记完成
+
+# 测试配置
+testing:
+  enabled: true
+  commands:
+    python: "python -m pytest"
+    node: "npm test"
+    web: "echo 'Browser testing not configured'"
