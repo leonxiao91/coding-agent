@@ -1,0 +1,19 @@
+{
+  "name": "minimax-coding-agent",
+  "version": "1.0.0",
+  "description": "MiniMax持续Coding代理系统 - Node.js版",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "init": "node main.js --init",
+    "code": "node main.js --code"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9"
+  }
+}
